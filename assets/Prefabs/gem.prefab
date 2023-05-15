@@ -24,10 +24,16 @@
       },
       {
         "__id__": 4
+      },
+      {
+        "__id__": 6
+      },
+      {
+        "__id__": 8
       }
     ],
     "_prefab": {
-      "__id__": 6
+      "__id__": 10
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -128,6 +134,209 @@
   {
     "__type__": "cc.CompPrefabInfo",
     "fileId": "0azI1CeYtDNI0udd4CIedK"
+  },
+  {
+    "__type__": "cc.PolygonCollider2D",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 7
+    },
+    "tag": 0,
+    "_group": 1,
+    "_density": 1,
+    "_sensor": true,
+    "_friction": 0.2,
+    "_restitution": 0,
+    "_offset": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_points": [
+      {
+        "__type__": "cc.Vec2",
+        "x": -0.20547945205479579,
+        "y": 15
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -4.315068493150685,
+        "y": 11.25
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -4.315068493150685,
+        "y": 10.5
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -8.424657534246576,
+        "y": 7.125
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -8.424657534246576,
+        "y": 6.375
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -12.534246575342465,
+        "y": 3
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -12.534246575342465,
+        "y": 2.25
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -15,
+        "y": 0.375
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -14.178082191780822,
+        "y": -1.5
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -9.657534246575342,
+        "y": -5.25
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -9.657534246575342,
+        "y": -6
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -1.4383561643835616,
+        "y": -13.5
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -1.4383561643835616,
+        "y": -14.25
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -0.6164383561643838,
+        "y": -15
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 0.616438356164382,
+        "y": -15
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 3.0821917808219155,
+        "y": -12.75
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 3.0821917808219155,
+        "y": -12
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 7.191780821917806,
+        "y": -8.625
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 7.191780821917806,
+        "y": -7.875
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 11.301369863013697,
+        "y": -4.5
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 11.301369863013697,
+        "y": -3.75
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 15,
+        "y": -0.75
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 14.17808219178082,
+        "y": 1.5
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 5.958904109589039,
+        "y": 9
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 5.958904109589039,
+        "y": 9.75
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 1.8493150684931514,
+        "y": 13.125
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 1.8493150684931514,
+        "y": 13.875
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 0.616438356164382,
+        "y": 15
+      }
+    ],
+    "_id": ""
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "2bRsCJ/v9H94MO+E7UYPWd"
+  },
+  {
+    "__type__": "cc.RigidBody2D",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 9
+    },
+    "enabledContactListener": false,
+    "bullet": false,
+    "awakeOnLoad": true,
+    "_group": 1,
+    "_type": 2,
+    "_allowSleep": true,
+    "_gravityScale": 0,
+    "_linearDamping": 0,
+    "_angularDamping": 0,
+    "_linearVelocity": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_angularVelocity": 0,
+    "_fixedRotation": false,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "bcCVIoMhpCRZ4gs0vLBi+3"
   },
   {
     "__type__": "cc.PrefabInfo",

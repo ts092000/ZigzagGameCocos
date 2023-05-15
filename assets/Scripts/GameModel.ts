@@ -1,4 +1,4 @@
-import { _decorator, CCFloat, Component, Node, Prefab } from 'cc';
+import { _decorator, Button, CCFloat, Component, Node, Prefab } from 'cc';
 const { ccclass, property } = _decorator;
 
 @ccclass('GameModel')
@@ -23,6 +23,15 @@ export class GameModel extends Component {
 
     @property({type:Node})
     private gemsNode: Node;
+
+    @property({type:Node})
+    private blueFirst: Node;
+
+    @property({type:Button})
+    private playAgainBtn: Button;
+
+    // @property({type:Node})
+    // private blueBig: Node;
 
     public get Ball() : Node {
         return this.ball;
@@ -78,6 +87,22 @@ export class GameModel extends Component {
     
     public set GemsNode(gemsNode : Node) {
         this.gemsNode = gemsNode;
+    }
+
+    public get BlueFirst() : Node {
+        return this.blueFirst;
+    }
+    
+    public set BlueFirst(blueFirst : Node) {
+        this.blueFirst = blueFirst;
+    }
+
+    public get PlayAgainBtn() : Button {
+        return this.playAgainBtn;
+    }
+    
+    public set PlayAgainBtn(playAgainBtn : Button) {
+        this.playAgainBtn = playAgainBtn;
     }
 
     start() {
